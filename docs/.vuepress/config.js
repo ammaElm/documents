@@ -48,7 +48,6 @@ module.exports =  {
         text: 'Documents',
         link: '../documents/',
         children: [
-          // SidebarItem
           {
             text: 'day',
             link: 'https://www.kancloud.cn/freya001/interview/1264040',
@@ -57,21 +56,24 @@ module.exports =  {
             text: 'practice',
             link: '/documents/practice.md',
           },
+          {
+            text: 'notice',
+            link: '/documents/notice.md',
+          },
         ],
       },
       {
         text: 'Components',
         link: '../components/',
         children: [
-          // SidebarItem
           {
-            text: 'Option',
-            link: '../components/Option/index.md',
+            text: 'option',
+            link: '/components/Option/doc.md',
             children: [],
           },
           {
-            text: 'Layout',
-            link: '../components/Layout/index.md',
+            text: 'layout',
+            link: '/components/Layout/doc.md',
             children: [],
           },
         ],
