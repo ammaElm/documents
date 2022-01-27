@@ -2,6 +2,7 @@
   "name": "my-components",
   "version": "1.0.0",
   "main": "index.js",
+  "files":[],
   "author": "zhangminyan <zhangminyan@sensetime.com>",
   "license": "MIT",
   "scripts": {
