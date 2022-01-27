@@ -68,12 +68,12 @@ module.exports =  {
         children: [
           {
             text: 'option',
-            link: '/components/Option/doc.md',
+            link: '/components/option/doc.md',
             children: [],
           },
           {
             text: 'layout',
-            link: '/components/Layout/doc.md',
+            link: '/components/layout/doc.md',
             children: [],
           },
         ],
