@@ -1,0 +1,14 @@
+{
+  "arrowParent": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "eslintIntegration": true,
+  "jsxBracketSameLine": true,
+  "jsxSingleQuote": true,
+  "useTabs": false,
+  "printWidth": 100,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5"
+}

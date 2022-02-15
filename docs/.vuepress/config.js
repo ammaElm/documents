@@ -1,83 +1,89 @@
-module.exports =  {
-  title: 'Components',
-  description: 'My Components ~',
+module.exports = {
+  title: "Documents",
+  description: "~ ~ ~",
   head: [
-    ['link', { rel: 'icon', href: '/public/favicon.ico' }] // 增加一个自定义的 favicon(网页标签的图标)
+    ["link", { rel: "icon", href: "/public/favicon.ico" }], // 增加一个自定义的 favicon(网页标签的图标)
   ],
-  base: '/', // 这是部署到github相关的配置 下面会讲
+  base: "/", // 这是部署到github相关的配置 下面会讲
   port: 8864,
   hot: true,
-  bundler: '@vuepress/bundler-vite',
+  bundler: "@vuepress/bundler-vite",
   bundlerConfig: {
     //  Vite 打包工具的配置项，TO DO
   },
   locales: {
-    '/': {
-      lang: 'en-US',
+    "/": {
+      lang: "en-US",
     },
-    '/zh/': {
-      lang: 'zh-CN',
+    "/zh/": {
+      lang: "zh-CN",
     },
   },
   themeConfig: {
     locales: {
-      '/': {
-        selectLanguageName: 'English',
+      "/": {
+        selectLanguageName: "English",
       },
-      '/zh/': {
-        selectLanguageName: '简体中文',
+      "/zh/": {
+        selectLanguageName: "简体中文",
       },
     },
     navbar: [
       // NavbarItem
       {
-        text: 'Documents',
-        link: '/documents/',
+        text: "Documents",
+        link: "/documents/",
       },
       // NavbarGroup
       {
-        text: 'Group',
-        children: ['/group/foo.md', '/group/bar.md'],
+        text: "links",
+        children: [
+          {
+            text: "day",
+            link: "https://www.kancloud.cn/freya001/interview/1264040",
+          },
+        ],
       },
       // 字符串 - 页面文件路径
-      '/docs/README.md',
+      "/docs/README.md",
     ],
     sidebar: [
       // SidebarItem
       {
-        text: 'Documents',
-        link: '../documents/',
+        text: "Documents",
+        link: "../documents/",
         children: [
           {
-            text: 'day',
-            link: 'https://www.kancloud.cn/freya001/interview/1264040',
+            text: "practice",
+            link: "/documents/practice.md",
           },
           {
-            text: 'practice',
-            link: '/documents/practice.md',
-          },
-          {
-            text: 'notice',
-            link: '/documents/notice.md',
+            text: "notice",
+            link: "/documents/notice.md",
           },
         ],
       },
       {
-        text: 'Components',
-        link: '../components/',
+        text: "Components",
+        link: "../components/",
         children: [
           {
-            text: 'option',
-            link: '/components/option/doc.md',
+            text: "option",
+            link: "/components/option/doc.md",
             children: [],
           },
           {
-            text: 'layout',
-            link: '/components/layout/doc.md',
+            text: "select",
+            link: "/components/select/doc.md",
+            children: [],
+          },
+          {
+            text: "layout",
+            link: "/components/layout/doc.md",
             children: [],
           },
         ],
       },
-    ],  
-  }, 
-}
+    ],
+  },
+};
