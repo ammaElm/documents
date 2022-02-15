@@ -1,4 +1,9 @@
 {
+  "cSpell.words": [
+    "minDelta",
+    "vite",
+    "Vite"
+  ],
   "editor.codeActionsOnSave": {
     "source.fixAll": true,
     "source.fixAll.eslint": true,
